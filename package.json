@@ -1,0 +1,20 @@
+{
+  "name": "slidev-theme-itmo",
+  "type": "module",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.0.0",
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.53.2"
+  }
+}
