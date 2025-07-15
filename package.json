@@ -1,6 +1,14 @@
 {
   "name": "slidev-theme-itmo",
+  "description": "ITMO theme for Slidev",
+  "author": "KaizerloveRussia",
   "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaizerloveRussia/slidev-theme-itmo.git"
+  },
+
   "keywords": [
     "slidev-theme",
     "slidev"
@@ -16,5 +24,6 @@
   },
   "devDependencies": {
     "playwright-chromium": "^1.53.2"
-  }
+  },
+  "packageManager": "pnpm@10.12.4"
 }
