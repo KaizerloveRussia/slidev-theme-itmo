@@ -1,6 +1,6 @@
 <template>
   <div class="ThreeTextFields">
-    <div class="background" :style="{ backgroundImage: `url('./images/ThreeTextFieldsBackground.png')` }"></div>
+    <div class="background"></div>
     <header class="header">
       <slot name="header" />
     </header>
@@ -37,6 +37,8 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: white;
+  background-image: none;
 }
 
 .header {
@@ -50,6 +52,7 @@
   left: 6%;
   font-family: Golos;
   font-weight: bold;
+  color: black;
 }
 
 .fields-grid {
@@ -71,7 +74,7 @@
   color: black;
   width: 94%;
   height: 49%;
-  color: white;
+  color: black;
   font-family: 'Arial';
 
   overflow: hidden;
@@ -87,7 +90,7 @@
   width: 94%;
   margin-top: -43%;
   height: 98%;
-  color: white;
+  color: black;
   font-family: 'Arial';
   
   overflow: hidden;
@@ -103,7 +106,7 @@
   margin-left: -3%;
   width: 84%;
   height: 65%;
-  color: white;
+  color: black;
   font-family: 'Arial';
 
   overflow: hidden;

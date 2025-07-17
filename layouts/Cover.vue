@@ -1,6 +1,6 @@
 <template>
   <div class="Cover">
-    <div class="background" :style="{ backgroundImage: `url('./images/CoverBackground.png')` }"></div>
+    <div class="background"></div>
     <div class="content">
       <slot />
     </div>
@@ -39,6 +39,8 @@
   background-size: cover;
   background-position: center;
   z-index: -1;
+  background-color: white;
+  background-image: none;
 }
 
 .content {
@@ -50,5 +52,6 @@
   line-height: 1.5;
   font-family: Golos;
   font-weight: bold;
+  color: black;
 }
 </style>

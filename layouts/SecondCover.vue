@@ -1,6 +1,6 @@
 <template>
   <div class="SecondCover">
-    <div class="background" :style="{ backgroundImage: `url('./images/SecondCoverBackground.png')` }"></div>
+    <div class="background"></div>
     <div class="content">
       <slot />
     </div>
@@ -25,6 +25,8 @@
   height: 100%;
   background-size: cover;
   background-position: right;
+  background-image: none;
+  background-color: white;
 }
 
 .content {
@@ -37,5 +39,6 @@
   padding-left: 2rem;
   font-family: Golos;
   font-weight: bold;
+  color: black;
 }
 </style>

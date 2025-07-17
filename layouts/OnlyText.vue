@@ -1,6 +1,6 @@
 <template>
   <div class="OnlyText">
-    <div class="background" :style="{ backgroundImage: `url('./images/OnlyTextBackground.png')` }"></div>
+    <div class="background"></div>
     <header class="header">
       <slot name="header" />
     </header>
@@ -29,6 +29,8 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  background-image: none;
+  background-color: white;
 }
 
 .header {
@@ -42,6 +44,7 @@
   left: 6%;
   font-family: Golos;
   font-weight: bold;
+  color: black;
 }
 
 .field-1 {
@@ -57,6 +60,6 @@
   color: gray;
   font-family: 'Arial';
 
-  overflow: hidden; /* Скрытие лишнего текста */
+  overflow: hidden;
 }
 </style>

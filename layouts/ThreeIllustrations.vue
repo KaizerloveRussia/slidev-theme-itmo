@@ -1,6 +1,6 @@
 <template>
   <div class="ThreeIllustrations">
-    <div class="background" :style="{ backgroundImage: `url('./images/ThreeIllustrationsBackground.png')` }"></div>
+    <div class="background"></div>
     <header class="header">
       <slot name="header" />
     </header>
@@ -43,6 +43,8 @@
   background-position: center;
   background-repeat: no-repeat;
   z-index: -1;
+  background-image: none;
+  background-color: white;
 }
 
 .header {
@@ -57,6 +59,7 @@
   left: 5.18%;
   font-family: Golos;
   font-weight: bold;
+  color: black;
 }
 
 .content {
